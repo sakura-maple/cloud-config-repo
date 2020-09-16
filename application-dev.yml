@@ -1,5 +1,8 @@
 # cloud-config-repo
 #配置中心
+spring:
+  application:
+    name: client
 eureka:
   client:
     service-url:
