@@ -1,5 +1,8 @@
-spring:
-  application:
-    name: client
+server:
+  port: 10003
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:9990/eureka/
 Env:
    env
